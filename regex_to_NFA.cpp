@@ -1,18 +1,3 @@
-/*
-size of my alphabet is 3. You can increase the size of the alphabet by changing the #define statement
-the precedence is as follows : brackets >> * >> concatenation >> |
-the funcion remove brackets simplifies the inner expression into a graph
-therefore to simplify the final step. I have wrapped the regex with a final pair of brackets.
-code only checks if there are matching brackets or not.
-it does not check if the * or | are in wrong positions. 
-*/
-
-
-/*
-Sample input: (a((ab|c)*a)bc)|c
-*/
-
-
 #include <bits/stdc++.h>
 using namespace std;
 # define noofsymbols 3
