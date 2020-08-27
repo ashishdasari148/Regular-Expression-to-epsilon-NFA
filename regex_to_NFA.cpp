@@ -102,7 +102,7 @@ graph *removebrackets(vector<symbols *> regex){
 int main(){
     string input;
     cin >> input;
-    //input = "(a((ab|c)*a)bc)|c";
+    // input = "(a((ab|c)*a)bc)|c";
     vector <symbols *> regex;
     symbols *a = new symbols;
     a->x = '(';
